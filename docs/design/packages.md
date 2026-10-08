@@ -121,7 +121,7 @@ The stdout (console) and in-memory exporters have no heavy dependencies and stay
 
 ## Entrypoint Packages
 
-Finally, developers consume the SDK via the entry-point packages `opentelemetry` and `opentelemetry_flutter`.
+Finally, app developers consume the SDK via the entry-point packages `opentelemetry` and `opentelemetry_flutter`.
 Both depend on the `opentelemetry_sdk`, `opentelemetry_api` (by re-export in the SDK) and the necessary exporters.
 Each has its own resource detection.
 
